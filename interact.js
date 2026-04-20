@@ -1,30 +1,63 @@
 
 
-let firstName = "alex";
-let lastName = "james";
+ let myAge = 20;
+ let hasID = true;
 
-let fullName = lastName + " " + firstName;
-console.log(fullName);
-console.log (typeof firstName)
+ console.log(myAge >= 18 && hasID);
+
+ console.log(myAge >=21 | hasID);
+
+ let dayofWeek = 6;
+ 
+ switch (dayofWeek) {
+  case 1: 
+      console.log("monday");
+      break;
+
+  case 2:
+      console.log("tuesday");
+      break;
+
+  case 3:
+      console.log("wednesday");
+      break;
+
+  case 4: 
+      console.log("thursday");
+      break;
+
+  case 5:
+      console.log("friday");
+      break;
+
+  case 6:
+      console.log("saturday");
+break;
+  default:
+      
+ };
 
 
- let firstName = "Alexxy";
- let lastName = "james";
- console.log(`my name is ${firstName} ${lastName}`);
+let score = 45;
+if(score >= 75){
+  console.log("A");
+}
 
- let me = "hello world"/8;
- console.log(me)
- console.log(typeof me )
+else if(score >= 60){
+  console.log("B");
+}
 
- let result = 5 + '10';
- console.log(result);
- console.log(typeof result);
+else if(score >= 50){
+  console.log("C")
+}
 
- let sub = '2' * 5;
- console.log(sub);
- console.log(typeof sub)
+else if(score >= 40){
+  console.log("D")
+}
 
- let mu
+else if(score >= 35){
+  console.log("F")
+}
 
 
 
